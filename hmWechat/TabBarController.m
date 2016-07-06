@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [NSThread sleepForTimeInterval:3];
     ChatViewController *chat = [[ChatViewController alloc] init];
     chat.title = @"微信";
     AddressBookViewController *addressBook = [[AddressBookViewController alloc] init];
@@ -28,12 +29,29 @@
     found.title = @"发现";
     MeViewController *me = [[MeViewController alloc] init];
     me.title = @"我";
-    self.viewControllers = @[[self getController:chat image:@"tabbar_chat_no" andselectedimage:@"tabbar_chat_yes"][self getController:addressBook image:@"tabbar_book_no" andselectedimage:@"tabbar_book_yes"][self getController:found image:@"tabbar_found_no" andselectedimage:@"tabbar_found_yes"][self getController:me image:@"tabbar_me_no" andselectedimage:@"tabbar_me_yes"]];
+    self.viewControllers = @[[self getController:chat image:@"tabbar_chat_no" andselectedimage:@"tabbar_chat_yes"],[self getController:addressBook image:@"tabbar_book_no" andselectedimage:@"tabbar_book_yes"], [self getController:found image:@"tabbar_found_no" andselectedimage:@"tabbar_found_yes"], [self getController:me image:@"tabbar_me_no" andselectedimage:@"tabbar_me_yes"]];
+    self.tabBar.tintColor = [UIColor colorWithRed:9/255.0 green:187/255.0 blue:7/255.0 alpha:1];
+
     
 }
 
--(UITabBarController *)getController:(UIViewController *)controller image:(NSString *)imageName andselectedimage:(NSString *)selectImageName{
-    
+//批量设置导航栏。
+-(UINavigationController *)getController:(UIViewController *)controller image:(NSString *)imageName andselectedimage:(NSString *)selectImageName{
+
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:controller];
+    nav.tabBarItem = [[UITabBarItem alloc]initWithTitle:controller.title image:[self removeRendering:imageName] selectedImage:[self removeRendering:selectImageName]];
+    return nav;
+}
+
+
+/**
+ *  返回取消渲染的image,渲染指的是是否对图像进行处理，imageWithRenderingMode方法中的枚举值，automatic是自动根据上下文渲染，original是使用图片的原始状态，不使用Tint color，template：模板，就是根据tint color对图片进行处理，不管图片的原始颜色。
+ */
+- (UIImage *)removeRendering:(NSString *)imageName
+{
+    UIImage * image = [UIImage imageNamed:imageName];
+    //
+    return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
 

@@ -1,33 +1,23 @@
 //
-//  BaseViewController.m
+//  ChatViewController.m
 //  hmWechat
 //
-//  Created by king_hm on 16/2/6.
+//  Created by 黄明族 on 16/7/6.
 //  Copyright © 2016年 king_hm. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "ChatViewController.h"
 
-@interface BaseViewController ()
+@interface ChatViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation ChatViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setUISetting];
+    // Do any additional setup after loading the view.
 }
-
-- (void)setUISetting {
-    [self preferredStatusBarStyle];
-}
-
-//* 设置控制器的状态栏的字体为白色
--(UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

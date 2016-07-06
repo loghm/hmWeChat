@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C03D695C1C65D28400344445 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D695B1C65D28400344445 /* ChatViewController.m */; };
 		C03D695F1C65D2A800344445 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D695E1C65D2A800344445 /* AddressBookViewController.m */; };
 		C03D69621C65D2B800344445 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D69611C65D2B800344445 /* FoundViewController.m */; };
 		C03D69651C65D2C200344445 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D69641C65D2C200344445 /* MeViewController.m */; };
 		C03D69681C65D31E00344445 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D69671C65D31E00344445 /* TabBarController.m */; };
 		C096E4391C65CC74002EDC66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E4381C65CC74002EDC66 /* main.m */; };
 		C096E43C1C65CC74002EDC66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E43B1C65CC74002EDC66 /* AppDelegate.m */; };
-		C096E43F1C65CC74002EDC66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E43E1C65CC74002EDC66 /* ViewController.m */; };
 		C096E4421C65CC74002EDC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E4401C65CC74002EDC66 /* Main.storyboard */; };
 		C096E4441C65CC74002EDC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E4431C65CC74002EDC66 /* Assets.xcassets */; };
 		C096E4471C65CC74002EDC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E4451C65CC74002EDC66 /* LaunchScreen.storyboard */; };
 		C096E4521C65CC74002EDC66 /* hmWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E4511C65CC74002EDC66 /* hmWechatTests.m */; };
 		C096E45D1C65CC74002EDC66 /* hmWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E45C1C65CC74002EDC66 /* hmWechatUITests.m */; };
 		C096E4851C65CF16002EDC66 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E4841C65CF16002EDC66 /* BaseViewController.m */; };
+		E2CFF15B1D2C993B0092F1A2 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CFF15A1D2C993B0092F1A2 /* ChatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C03D695A1C65D28400344445 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = "../../Address book/Controllers/ChatViewController.h"; sourceTree = "<group>"; };
-		C03D695B1C65D28400344445 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = "../../Address book/Controllers/ChatViewController.m"; sourceTree = "<group>"; };
 		C03D695D1C65D2A800344445 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
 		C03D695E1C65D2A800344445 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
 		C03D69601C65D2B800344445 /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
@@ -55,8 +52,6 @@
 		C096E4381C65CC74002EDC66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C096E43A1C65CC74002EDC66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C096E43B1C65CC74002EDC66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C096E43D1C65CC74002EDC66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C096E43E1C65CC74002EDC66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C096E4411C65CC74002EDC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C096E4431C65CC74002EDC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C096E4461C65CC74002EDC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +64,8 @@
 		C096E45E1C65CC74002EDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C096E4831C65CF16002EDC66 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C096E4841C65CF16002EDC66 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E2CFF1591D2C993B0092F1A2 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		E2CFF15A1D2C993B0092F1A2 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +116,8 @@
 		C096E4361C65CC74002EDC66 /* hmWechat */ = {
 			isa = PBXGroup;
 			children = (
+				E2CFF1541D2C98F10092F1A2 /* Chat */,
 				C096E4731C65CE51002EDC66 /* Address book */,
-				C096E4771C65CE51002EDC66 /* Chat */,
 				C096E47B1C65CE51002EDC66 /* Found */,
 				C096E47F1C65CE51002EDC66 /* Me */,
 				C096E43A1C65CC74002EDC66 /* AppDelegate.h */,
@@ -129,8 +126,6 @@
 				C096E4841C65CF16002EDC66 /* BaseViewController.m */,
 				C03D69661C65D31E00344445 /* TabBarController.h */,
 				C03D69671C65D31E00344445 /* TabBarController.m */,
-				C096E43D1C65CC74002EDC66 /* ViewController.h */,
-				C096E43E1C65CC74002EDC66 /* ViewController.m */,
 				C096E4371C65CC74002EDC66 /* Supporting Files */,
 			);
 			path = hmWechat;
@@ -193,39 +188,6 @@
 			sourceTree = "<group>";
 		};
 		C096E4761C65CE51002EDC66 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C096E4771C65CE51002EDC66 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				C096E4781C65CE51002EDC66 /* Controllers */,
-				C096E4791C65CE51002EDC66 /* Model */,
-				C096E47A1C65CE51002EDC66 /* View */,
-			);
-			path = Chat;
-			sourceTree = "<group>";
-		};
-		C096E4781C65CE51002EDC66 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				C03D695A1C65D28400344445 /* ChatViewController.h */,
-				C03D695B1C65D28400344445 /* ChatViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		C096E4791C65CE51002EDC66 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C096E47A1C65CE51002EDC66 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -296,6 +258,39 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E2CFF1541D2C98F10092F1A2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E2CFF1581D2C991A0092F1A2 /* View */,
+				E2CFF1571D2C99150092F1A2 /* Model */,
+				E2CFF1551D2C98FE0092F1A2 /* Controllers */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		E2CFF1551D2C98FE0092F1A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2CFF1591D2C993B0092F1A2 /* ChatViewController.h */,
+				E2CFF15A1D2C993B0092F1A2 /* ChatViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E2CFF1571D2C99150092F1A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E2CFF1581D2C991A0092F1A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,15 +423,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C096E43F1C65CC74002EDC66 /* ViewController.m in Sources */,
 				C096E4851C65CF16002EDC66 /* BaseViewController.m in Sources */,
 				C03D695F1C65D2A800344445 /* AddressBookViewController.m in Sources */,
 				C03D69681C65D31E00344445 /* TabBarController.m in Sources */,
-				C03D695C1C65D28400344445 /* ChatViewController.m in Sources */,
 				C03D69621C65D2B800344445 /* FoundViewController.m in Sources */,
 				C096E43C1C65CC74002EDC66 /* AppDelegate.m in Sources */,
 				C03D69651C65D2C200344445 /* MeViewController.m in Sources */,
 				C096E4391C65CC74002EDC66 /* main.m in Sources */,
+				E2CFF15B1D2C993B0092F1A2 /* ChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = hmWechat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = king.com.hmWechat;
@@ -586,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = hmWechat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = king.com.hmWechat;

@@ -19,6 +19,10 @@
 		C096E4521C65CC74002EDC66 /* hmWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E4511C65CC74002EDC66 /* hmWechatTests.m */; };
 		C096E45D1C65CC74002EDC66 /* hmWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E45C1C65CC74002EDC66 /* hmWechatUITests.m */; };
 		C096E4851C65CF16002EDC66 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C096E4841C65CF16002EDC66 /* BaseViewController.m */; };
+		C702C2C4398C9F6B7D249106 /* libPods-hmWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA92DA25E50760C2D88F0CF /* libPods-hmWechat.a */; };
+		E28089D91D2CB11C009825C2 /* UISize.m in Sources */ = {isa = PBXBuildFile; fileRef = E28089D81D2CB11C009825C2 /* UISize.m */; };
+		E28089DC1D2D0176009825C2 /* MeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E28089DB1D2D0176009825C2 /* MeTableViewCell.m */; };
+		E28089DF1D2D0259009825C2 /* PersonalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E28089DE1D2D0259009825C2 /* PersonalModel.m */; };
 		E2CFF15B1D2C993B0092F1A2 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CFF15A1D2C993B0092F1A2 /* ChatViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E8319A0D73093D55EDA7F42 /* Pods-hmWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmWechat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hmWechat/Pods-hmWechat.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA92DA25E50760C2D88F0CF /* libPods-hmWechat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hmWechat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FAC33B0DF5D745B05C43FB /* Pods-hmWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmWechat.release.xcconfig"; path = "Pods/Target Support Files/Pods-hmWechat/Pods-hmWechat.release.xcconfig"; sourceTree = "<group>"; };
 		C03D695D1C65D2A800344445 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
 		C03D695E1C65D2A800344445 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
 		C03D69601C65D2B800344445 /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
@@ -64,6 +71,12 @@
 		C096E45E1C65CC74002EDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C096E4831C65CF16002EDC66 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C096E4841C65CF16002EDC66 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E28089D71D2CB11C009825C2 /* UISize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISize.h; sourceTree = "<group>"; };
+		E28089D81D2CB11C009825C2 /* UISize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISize.m; sourceTree = "<group>"; };
+		E28089DA1D2D0176009825C2 /* MeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeTableViewCell.h; path = hmWechat/MeTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		E28089DB1D2D0176009825C2 /* MeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeTableViewCell.m; path = hmWechat/MeTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		E28089DD1D2D0259009825C2 /* PersonalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalModel.h; path = hmWechat/PersonalModel.h; sourceTree = SOURCE_ROOT; };
+		E28089DE1D2D0259009825C2 /* PersonalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalModel.m; path = hmWechat/PersonalModel.m; sourceTree = SOURCE_ROOT; };
 		E2CFF1591D2C993B0092F1A2 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		E2CFF15A1D2C993B0092F1A2 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C702C2C4398C9F6B7D249106 /* libPods-hmWechat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51CE6899C77E33581EF3A0B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E8319A0D73093D55EDA7F42 /* Pods-hmWechat.debug.xcconfig */,
+				74FAC33B0DF5D745B05C43FB /* Pods-hmWechat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B298509B0A8376F70ACC913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA92DA25E50760C2D88F0CF /* libPods-hmWechat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C096E42B1C65CC74002EDC66 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +131,8 @@
 				C096E4501C65CC74002EDC66 /* hmWechatTests */,
 				C096E45B1C65CC74002EDC66 /* hmWechatUITests */,
 				C096E4351C65CC74002EDC66 /* Products */,
+				51CE6899C77E33581EF3A0B4 /* Pods */,
+				8B298509B0A8376F70ACC913 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +167,8 @@
 		C096E4371C65CC74002EDC66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E28089D71D2CB11C009825C2 /* UISize.h */,
+				E28089D81D2CB11C009825C2 /* UISize.m */,
 				C096E4381C65CC74002EDC66 /* main.m */,
 				C096E4401C65CC74002EDC66 /* Main.storyboard */,
 				C096E4451C65CC74002EDC66 /* LaunchScreen.storyboard */,
@@ -249,6 +284,8 @@
 		C096E4811C65CE51002EDC66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E28089DD1D2D0259009825C2 /* PersonalModel.h */,
+				E28089DE1D2D0259009825C2 /* PersonalModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,6 +293,8 @@
 		C096E4821C65CE51002EDC66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E28089DA1D2D0176009825C2 /* MeTableViewCell.h */,
+				E28089DB1D2D0176009825C2 /* MeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C096E4611C65CC74002EDC66 /* Build configuration list for PBXNativeTarget "hmWechat" */;
 			buildPhases = (
+				4940CFFE0063B7AEDF75A2D6 /* [CP] Check Pods Manifest.lock */,
 				C096E4301C65CC74002EDC66 /* Sources */,
 				C096E4311C65CC74002EDC66 /* Frameworks */,
 				C096E4321C65CC74002EDC66 /* Resources */,
+				AAC1E058CC0D78986535900F /* [CP] Embed Pods Frameworks */,
+				BBA7D3A2BCD11DC3F61FF6E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -418,6 +460,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4940CFFE0063B7AEDF75A2D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC1E058CC0D78986535900F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmWechat/Pods-hmWechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA7D3A2BCD11DC3F61FF6E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmWechat/Pods-hmWechat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C096E4301C65CC74002EDC66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -426,8 +516,11 @@
 				C096E4851C65CF16002EDC66 /* BaseViewController.m in Sources */,
 				C03D695F1C65D2A800344445 /* AddressBookViewController.m in Sources */,
 				C03D69681C65D31E00344445 /* TabBarController.m in Sources */,
+				E28089DF1D2D0259009825C2 /* PersonalModel.m in Sources */,
 				C03D69621C65D2B800344445 /* FoundViewController.m in Sources */,
 				C096E43C1C65CC74002EDC66 /* AppDelegate.m in Sources */,
+				E28089DC1D2D0176009825C2 /* MeTableViewCell.m in Sources */,
+				E28089D91D2CB11C009825C2 /* UISize.m in Sources */,
 				C03D69651C65D2C200344445 /* MeViewController.m in Sources */,
 				C096E4391C65CC74002EDC66 /* main.m in Sources */,
 				E2CFF15B1D2C993B0092F1A2 /* ChatViewController.m in Sources */,
@@ -567,6 +660,7 @@
 		};
 		C096E4621C65CC74002EDC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8319A0D73093D55EDA7F42 /* Pods-hmWechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -579,6 +673,7 @@
 		};
 		C096E4631C65CC74002EDC66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FAC33B0DF5D745B05C43FB /* Pods-hmWechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -11,6 +11,7 @@
 #import "ChatViewController.h"
 #import "FoundViewController.h"
 #import "MeViewController.h"
+#import "UISize.h"
 
 @interface TabBarController ()
 
@@ -21,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [NSThread sleepForTimeInterval:3];
+    
     ChatViewController *chat = [[ChatViewController alloc] init];
     chat.title = @"微信";
     AddressBookViewController *addressBook = [[AddressBookViewController alloc] init];
@@ -32,7 +34,6 @@
     self.viewControllers = @[[self getController:chat image:@"tabbar_chat_no" andselectedimage:@"tabbar_chat_yes"],[self getController:addressBook image:@"tabbar_book_no" andselectedimage:@"tabbar_book_yes"], [self getController:found image:@"tabbar_found_no" andselectedimage:@"tabbar_found_yes"], [self getController:me image:@"tabbar_me_no" andselectedimage:@"tabbar_me_yes"]];
     self.tabBar.tintColor = [UIColor colorWithRed:9/255.0 green:187/255.0 blue:7/255.0 alpha:1];
 
-    
 }
 
 //批量设置导航栏。
@@ -40,6 +41,7 @@
 
     UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:controller];
     nav.tabBarItem = [[UITabBarItem alloc]initWithTitle:controller.title image:[self removeRendering:imageName] selectedImage:[self removeRendering:selectImageName]];
+    
     return nav;
 }
 

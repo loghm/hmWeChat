@@ -21,6 +21,7 @@
 
 - (void)setUISetting {
     [self preferredStatusBarStyle];
+    
 }
 
 //* 设置控制器的状态栏的字体为白色

@@ -30,12 +30,14 @@
         self.weChatNumLabel = [[UILabel alloc] init];
         self.avatarImageView = [[UIImageView alloc] init];
         self.dimentionCodeImageView = [[UIImageView alloc] init];
+        
         [self.contentView addSubview:self.avatarImageView];
         [self.contentView addSubview:self.dimentionCodeImageView];
         [self.contentView addSubview:self.nickNameLabel];
         [self.contentView addSubview:self.weChatNumLabel];
-        self.avatarImageView.frame = CGRectMake(10, 10, 0.2*SCREEN_WIDTH, UIRateHeight(133));
         
+        self.avatarImageView.frame = CGRectMake(10, 15, 0.2*SCREEN_WIDTH, UIRateHeight(133));
+     
         [self.nickNameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView).offset(20);
             make.left.equalTo(self.avatarImageView.mas_right).offset(10);
@@ -68,6 +70,8 @@
     self.weChatNumLabel.text = [NSString stringWithFormat:@"微信号：%@", model.weChatNum];
     self.dimentionCodeImageView.image = [UIImage imageNamed:@"setting_myQR"];
 }
+
+
 
 
 - (void)awakeFromNib {

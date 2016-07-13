@@ -29,10 +29,10 @@
         dataArr = @[@[@""], @[@"相册", @"收藏", @"钱包", @"卡包"], @[@"表情"], @[@"设置"]];
         ImageArr = @[@[@""], @[@"me_photo", @"me_collect", @"me_money", @"me_collect"], @[@"MoreExpressionShops"], @[@"me_setting"]];
         model = [[PersonalModel alloc] init];
-        //在这里给他一些初值
         model.avatarStr = @"profession";
         model.nickName = @"小明";
         model.weChatNum = @"1234556";
+
     }
     return self;
 }

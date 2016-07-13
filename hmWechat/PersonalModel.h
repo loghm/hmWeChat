@@ -12,10 +12,10 @@
  */
 @interface PersonalModel : NSObject
 /** 头像的url*/
-@property (nonatomic, strong)NSString *avatarStr;
+@property (nonatomic, copy)NSString *avatarStr;
 /** 昵称*/
-@property (nonatomic, strong)NSString *nickName;
+@property (nonatomic, copy)NSString *nickName;
 /** 微信号*/
-@property (nonatomic, strong)NSString *weChatNum;
+@property (nonatomic, copy)NSString *weChatNum;
 
 @end

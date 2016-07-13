@@ -36,7 +36,7 @@
 
 }
 
-//批量设置导航栏。
+//批量设置tabbar item。
 -(UINavigationController *)getController:(UIViewController *)controller image:(NSString *)imageName andselectedimage:(NSString *)selectImageName{
 
     UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:controller];
